@@ -14,7 +14,16 @@ export default function Footer({}: Props) {
         </div>
       </div>
       <div className="py-4 text-center">
-        <p>Designed by UTXOTech.com</p>
+        <p>
+          Designed by{" "}
+          <a
+            href="https://utxotech.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            UTXOTech.com
+          </a>
+        </p>
       </div>
     </footer>
   );
